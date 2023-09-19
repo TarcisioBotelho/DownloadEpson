@@ -1,0 +1,357 @@
+body {
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(230, 230, 230);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: #19212b;
+}
+
+.container {
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    justify-content: center;
+}
+
+nav ul, nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin: 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    justify-content: center;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    padding-top: 20px;
+    background-color: #19212b;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_text {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title2 {
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.verificar {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.verificar_windows {
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.atencao {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.sub_title2 {
+    font-size: 20px;
+}
+
+.epson_logo {
+    background-image: url(/img/epson-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 48px;
+}
+
+.down_drivers {
+    background-color: rgb(230, 230, 230);
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.down_drivers {
+    padding: 20px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    word-wrap: break-word;    
+}
+
+.principal {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1100px;
+}
+
+.L220, .L355, .L365, .L375, .L380, .L395, .L3110, .L3150, .L3210, .L3250, .L4150, .L4160, .L4260, .L5290, .L6490, .M105,  .M205  {
+    border: 0.5px black solid;
+    background-color: rgb(200, 200, 200);
+    border-radius: 5px;
+    min-width: 200px;
+    max-width: 200px;
+    height: 200px;
+    margin: 5px;
+    flex: 1;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.L220 {
+    background-image: url(/img/L220.png);
+}
+
+.L355 {
+    background-image: url(/img/L355.png);
+}
+
+.L365 {
+    background-image: url(/img/L365.png);
+}
+
+.L375 {
+    background-image: url(/img/L375.png);
+}
+
+.L380 {
+    background-image: url(/img/L380.png);
+}
+
+.L395 {
+    background-image: url(/img/L395.png);
+}
+
+.L3110 {
+    background-image: url(/img/L3110.png);
+}
+
+.L3150 {
+    background-image: url(/img/L3150.png);
+}
+
+.L3210 {
+    background-image: url(/img/L3210.png);
+}
+
+.L3250 {
+    background-image: url(/img/L3250.png);
+}
+
+.L4150 {
+    background-image: url(/img/L4150.png);
+}
+
+.L4160 {
+    background-image: url(/img/L4160.png);
+}
+
+.L4260 {
+    background-image: url(/img/L4260.png);
+}
+
+.L5290 {
+    background-image: url(/img/L5290.png);
+}
+
+.L6490 {
+    background-image: url(/img/L6490.png);
+}
+
+.M105 {
+    background-image: url(/img/M105.png);
+}
+
+.M205 {
+    background-image: url(/img/M205.png);
+}
+
+.printer_name {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.printer_subname {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 10px;
+    }
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.download_32bits, .download_64bits {
+    padding: 10px;
+    margin: 3px;
+    font-size: 15px;
+    background-color: #1553cf;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+}
+
+.download_32bits:hover, .download_64bits:hover {
+    background-color: black;
+}
+
+.footer {
+    background-color: #19212b;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.footer_text {
+    color: white;
+}
+
+@media (max-width: 450px) {
+    .title2 {
+        background-color: rgb(230, 230, 230);
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        font-size: 27px;
+    }
+
+    .sub_title2 {
+        width: 100%;
+        font-size: 20px;
+        padding-left: 20px;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        word-wrap: break-word;
+    }
+
+    .verificar {
+        display: none;
+    }
+    
+    .verificar_windows {
+        display: none;
+    }
+
+    .footer {
+        background-color: #19212b;
+        width: 95%;
+        height: 100%;
+        display: flex;
+        word-wrap: break-word;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+    }
+    
+    .footer_text {
+        color: white;
+    }
+}
+
+@media (max-width: 380px) {
+    section .title .title_text {
+        font-size: 14px;
+    }
+
+    .title2 {
+        background-color: rgb(230, 230, 230);
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+    .sub_title2 {
+        width: 100%;
+        font-size: 20px;
+        padding-left: 20px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        word-wrap: break-word;
+    }
+
+    .verificar {
+        display: none;
+    }
+    
+    .verificar_windows {
+        display: none;
+    }
+
+    .footer {
+        background-color: #19212b;
+        width: 95%;
+        height: 100%;
+        display: flex;
+        word-wrap: break-word;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .footer_text {
+        color: white;
+    }
+}
